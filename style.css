@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: red;
+    height: 100vh;
+    background: linear-gradient(to right top, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .container h1 {
+    margin-bottom: 25px;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000;
+  }
+  #neha{
+    background-color: red;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.85);
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #34d399;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background: #059669;
+    transform: scale(1.05);
+  }
+  
+  /* Keyframes for fade in animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Styling syscall.php page buttons */
+  button.syscall-btn {
+    margin: 15px;
+    padding: 10px 25px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b82f6;
+
+    color: red;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button.syscall-btn:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+  }
+  
+  #response {
+    margin-top: 20px;
+    background-color: #ffffff33;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    animation: fadeIn 0.5s ease;
+  }
+  
